@@ -97,7 +97,7 @@ p {
 }
 
 button:hover {
-	cursor: url("../img/click.png"), auto;
+	cursor: pointer;
 }
 
 button.mega {
