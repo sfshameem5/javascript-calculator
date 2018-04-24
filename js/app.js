@@ -36,7 +36,6 @@ $("button").on("click", function(e) {
 		$(".calculator-screen").text(eval(input_string));
 	}
 
-	// FIX THE CLEAR FUNCTOIN ERROR TYPO
 
 	if (
 		isNaN(parseInt(input_string[input_string.length - 1])) &&
