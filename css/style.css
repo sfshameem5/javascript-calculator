@@ -1,0 +1,120 @@
+/**********
+Universal Styles
+**********/
+* {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	cursor: url("../img/cursor.png"), auto;
+}
+
+
+/**********
+Colors
+**********/
+
+.dark-black {
+	background: #1B2F40;
+}
+
+.light-black {
+	background: #354655;
+}
+
+.red {
+	background: red;
+}
+
+/**********
+Calculator Styles
+**********/
+body {
+	background: red;
+}
+
+main {
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 90vh;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	background: black;
+	box-shadow: 0px 8px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.first,
+.second	 {
+	height: 50%;
+}
+
+
+.calculator-screen,
+.input-screen {
+	color: white;
+	margin: 10px;
+	text-align: right;
+	font-size: 3.5rem;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.input-screen {
+	min-height: 24px;
+}
+
+p {
+	color: #fff;
+	display: none;
+}
+
+
+
+.input-screen {
+	font-size: 1.5rem;
+}
+
+
+.calculator-body {
+	display: flex;
+	margin: 0 auto;	
+	width: 98%;
+}
+
+.calculator-body button {
+	padding: 10px 15px;
+	font-size: 2rem;
+	margin: 3px;
+	color: #fff;
+	border: 1px solid black;
+	outline: none;
+}
+
+button:hover {
+	cursor: url("../img/click.png"), auto;
+}
+
+button.mega {
+	width: 200px;
+}
+
+button.mini {
+	width: 80px;
+}
+
+button.mega,
+button.mini {
+	opacity: .8;
+}
+
+button.mega:active,
+button.mini:active {
+	opacity: 1;
+}
+

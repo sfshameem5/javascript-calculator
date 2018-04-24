@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>JavaScript Calculator</title>
+		<!-- normalize css -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<!-- custom css -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<main>
+			<div class="first">
+				<div class="calculator-screen">0</div>
+				<div class="input-screen">0</div>
+				<p class="limit">Maximum limit reached</p>
+				<p class="error">Error!</p>
+			</div>
+			<div class="last">
+				<div class="calculator-body">
+					<button class="clear mega dark-black">Clear</button>
+					<button id="divide" class="mega dark-black">&#247;</button>
+				</div>
+				<div class="calculator-body">
+					<button class="light-black mini number">1</button>
+					<button class="light-black mini number">2</button>
+					<button class="light-black mini number">3</button>
+					<button id="multiply" class="light-black mini">x</button>
+				</div>
+				<div class="calculator-body">
+					<button class="light-black mini number">4</button>
+					<button class="light-black mini number">5</button>
+					<button class="light-black mini number">6</button>
+					<button id="subtract" class="light-black mini">-</button>
+				</div>
+				<div class="calculator-body">
+					<button class="light-black mini number">7</button>
+					<button class="light-black mini number">8</button>
+					<button class="light-black mini number">9</button>
+					<button id="add" class="light-black mini">+</button>
+				</div>
+				<div class="calculator-body">
+					<button class="dark-black mega number">0</button>
+					<button class="red mega calculate">=</button>
+				</div>
+			</div>
+		</main>
+		<!-- jquery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- custom js -->
+		<script src="js/app.js"></script>
+	</body>
+</html>
